@@ -39,7 +39,7 @@
 						<ul class="icons">
 							<li><a href="https://x.com/tahriofficial" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="https://www.linkedin.com/in/houssam-tahri/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://github.com/Houssamtahri" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 					</nav> 
 
@@ -49,7 +49,7 @@
 						<!-- Featured Post -->
 						<article class="post featured" style="max-width: 2000px; margin: 10px;">
   							<header class="major" style="text-align: center;">
-    							<h2 id="name" style="font-size: 30px"><a href="#">Houssam TAHRI</a></h2>
+    							<h2 id="name" style="font-size: 35px">Houssam TAHRI</h2>
   							</header>
 
   								<div class="post-content" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
@@ -85,35 +85,54 @@
 										}
 										}
 										.row1 {
-										display: flex;
-										align-items: center;
-										gap: 5px; /* space between items */
-										padding: 20px;
-										justify-content: center;
-										margin-top: 80px;
-										margin-bottom: 70px;
+											display: flex;
+											flex-wrap: wrap;         /* allow wrapping on mobile */
+											gap: 20px;
+											padding: 20px;
+											justify-content: center;
+											margin-top: 70px;
+											margin-bottom: 80px;
+										}
+
+										.item {
+											display: flex;
+											flex-direction: row;
+											align-items: center;
+											gap: 10px;
 										}
 
 										.row1 img {
-										width: 100px;
-										height: auto;
-										border-radius: 10px;
+											width: 50px;
+											height: auto;
+											border-radius: 10px;
 										}
 
 										.text {
-										font-size: 16px;
-										max-width: 300px;
-										text-align: left;
+											font-size: 16px;
+											max-width: 300px;
+											line-height: 1.5;
+											text-align: left;
+										}
+
+											/* Mobile: stack each image+text pair on its own line */
+											@media (max-width: 600px) {
+										.item {
+												width: 100%; /* forces each .item to go full-width = one per line */
+											}
 										}
 									</style>
 						
 								</div>
+								
 								<div class="row1">
+								<div class="item">
 									<img src="images/Experiences.png" alt="Image 1">
 									<div class="text">About <strong>1 year</strong> as a <strong>Functional Developer Engineer</strong></div>
-
+								</div>
+								<div class="item">
 									<img src="images/Education.png" alt="Image 2">
 									<div class="text">Engineer in <strong>Electronic, Computer Science and Network Systems</strong></div>
+								</div>
 								</div>
 								<ul class="actions special">
 									<li><a href="#first-post" class="button scrolly">Full Story</a></li>
@@ -217,7 +236,7 @@
 											</ul>
 
 											<ul class="icons" style="display: flex; align-items: center; gap: 0px; width: device-width">
-												<li>
+												<li style="line-height: normal;">
 													<a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=7ad36724-8837-4567-a0e7-95f9d8e81d5c&" >
 														Control Design Onramp with Simulink
 													</a>
@@ -225,7 +244,7 @@
 											</ul>
 
 											<ul class="icons" style="display: flex; align-items: center; gap: 0px; width: device-width">
-												<li>
+												<li style="line-height: normal;">
 													<a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=3848da80-bccf-4a78-918f-e03767badd7e&" >
 														Power Electronics Simulation Onramp
 													</a>
@@ -237,7 +256,7 @@
 
 										<h3>Udemy</h3>
 											<ul class="icons" style="display: flex; align-items: center; gap: 0px; width: device-width">
-												<li>
+												<li style="line-height: normal;">
 													<a href="https://www.udemy.com/certificate/UC-98a607e8-4ebe-46cb-adc0-fb13a1547598/">
 														AUTOSAR: From Basics to Advanced Application
 													</a>
@@ -246,7 +265,7 @@
 											</ul>
 											
 											<ul class="icons" style="display: flex; align-items: center; gap: 0px;">
-												<li>
+												<li style="line-height: normal;">
 													<a href="https://www.udemy.com/certificate/UC-15d43bb2-9d7f-46a8-b158-5863ea35adf7/">
 														Model-Based Design Concepts
 													</a>
@@ -254,7 +273,7 @@
 
 											</ul>
 											<ul class="icons" style="display: flex; align-items: center; gap: 0px;">
-												<li>
+												<li style="line-height: normal;">
 													<a href="https://www.udemy.com/certificate/UC-bb8df70c-64fc-47ed-bb40-484c17115b89/">
 														Advanced Driver Assistance Systems (ADAS)
 													</a>
@@ -263,7 +282,7 @@
 											</ul>
 
 											<ul class="icons" >
-												<li>
+												<li style="line-height: normal;">
 													<a href="https://www.udemy.com/certificate/UC-4cab7fab-b294-4eb1-9b15-9e533f8df1d0/">
 														System Engineering V Model ISO26262 ASPICE and Motors
 													</a>
@@ -271,7 +290,7 @@
 												
 											</ul>
 											<ul class="icons" style="display: flex; align-items: center; gap: 0px;">
-												<li>
+												<li style="line-height: normal;">
 													<a href="https://www.udemy.com/certificate/UC-0583df92-1f0c-4e35-aa2c-08ef2cb26242/" >
 														Automotive Software AUTOSAR Application using  MBD/ Simulink
 													</a>
@@ -282,7 +301,7 @@
 
 										<h3>Coursera</h3>
 											<ul class="icons" style="display: flex; align-items: center; gap: 0px;">
-												<li>
+												<li style="line-height: normal;">
 													<a  href="https://www.coursera.org/account/accomplishments/certificate/ELEQD7WR36CZ">
 														Supervised Machine Learning: Regression and Classification
 													</a>
@@ -318,7 +337,7 @@
 								<ul class="icons alt">
 									<li><a href="https://x.com/tahriofficial" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="https://www.linkedin.com/in/houssam-tahri/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://github.com/Houssamtahri" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</section>
 						</section>
@@ -326,7 +345,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; 2025</li><li>Houssam Tahri</a></li></ul>
 					</div>
 
 			</div>
